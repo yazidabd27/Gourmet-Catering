@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position:sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+   
+}
+
+
+.a1,.a2{
+    padding:20px ;
+}
+
+.nav a{
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.nav a:hover{
+    background-color: wheat;
+}
+
+header{
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.ft{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+    letter-spacing: 5px;
+    font-size: 35px;
+    color: grey;
+    font-weight: lighter;
+}
+
+section{
+    padding: 65px 0px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.img2{
+    height: 600px;
+    padding-left: 14px;
+    opacity: 0.75;
+}
+
+h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+h5{
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.txt1{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.txt2{
+    color: #757575;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+hr{
+    width: 80%;
+    opacity: 0.3;
+    margin: auto;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 65px 0px;
+}
+
+.om{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.menu h4{
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.menu p{
+    color: #757575;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.img3{
+    opacity: 0.75;
+}
+
+.contact{
+    padding:65px 140px;
+}
+
+.contact h1{
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.contact p:first-of-type{
+    margin: 15px 0;
+}
+
+.bold{
+    color: #607d8b;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    margin-bottom:20px ;
+    padding: 20px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    
+}
+
+#submit:hover{
+    background-color:#aaa ;
+    cursor: pointer;
+
+}
+
+#submit{
+    width: 15%;
+    padding: 10px 10px;
+}
+
+footer{
+    padding: 30px 0;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+footer a{
+    color: black;
+}
+
+
+footer a:hover{
+    color: green;
+}
+
+footer::before{
+    content: '';
+    box-sizing: inherit;
+}
